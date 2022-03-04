@@ -8,4 +8,4 @@ position = 300
 tito.back(position)
 tito.left(90)
 
-window.exitonclick()
+window.exitonclick() 
