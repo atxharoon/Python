@@ -1,7 +1,7 @@
 from random import randint
 import sys
 
-#Generating random lists of size 20 and findng the intersection. 
+#Generating random lists of random size from 1 to 20 and findng the intersection. 
 list_a = [randint(1, 10) for p in range(randint(1,20))]
 list_b = [randint(1, 10) for p in range(randint(1,20))]
 print(list(set(list_a).intersection(list_b)))
